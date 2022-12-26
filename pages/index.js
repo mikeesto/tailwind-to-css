@@ -6,6 +6,7 @@ import atomOneDark from "react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { CopyButton } from "../components/CopyButton";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [textarea, setTextArea] = useState("");
@@ -79,6 +80,7 @@ export default function Home() {
           </>
         )}
       </main>
+      <Footer />
     </>
   );
 }
