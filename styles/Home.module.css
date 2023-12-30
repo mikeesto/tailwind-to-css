@@ -19,8 +19,7 @@
   border: 2px solid #A7C7E7;
 }
 
-.submit,
-.buttonload {
+.submit {
   background-color: #4169E1;
   border: none;
   color: white;
@@ -28,10 +27,6 @@
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.buttonload {
-  cursor: initial;
 }
 
 .css {
