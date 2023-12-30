@@ -40,6 +40,12 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
+        <meta property="og:title" content="Convert Tailwind to CSS" />
+        <meta property="og:url" content="https://tailwindtocss.vercel.app/" />
+        <meta property="og:image" content="/og-image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og-image.png" />
+        <meta name="twitter:title" content="Convert Tailwind to CSS" />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.h1}>Tailwind to CSS</h1>
